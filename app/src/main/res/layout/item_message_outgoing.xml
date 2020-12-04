@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_message_date"
+        android:paddingHorizontal="@dimen/message_padding_date_horizontal"
+        android:paddingVertical="@dimen/message_padding_date_vertical"
+        android:textAppearance="@style/TextAppearance.ChatDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@tools:sample/date/ddmmyy" />
+
+    <TextView
+        android:id="@+id/timestamp_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/message_margin_space"
+        android:layout_marginEnd="@dimen/message_margin"
+        android:textAppearance="@style/TextAppearance.Caption"
+        app:layout_constraintBottom_toBottomOf="@+id/message_tv"
+        app:layout_constraintEnd_toStartOf="@+id/message_tv"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/message_tv"
+        tools:text="@tools:sample/date/hhmm" />
+
+    <TextView
+        android:id="@+id/message_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/message_margin_date"
+        android:layout_marginEnd="@dimen/message_margin"
+        android:background="@drawable/bg_message_outgoing"
+        android:paddingHorizontal="@dimen/message_padding_text_horizontal"
+        android:paddingVertical="@dimen/message_padding_text_vertical"
+        android:textAppearance="@style/TextAppearance.Body1.OutgoingMessage"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@+id/seen_iv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/timestamp_tv"
+        app:layout_constraintTop_toBottomOf="@+id/date_tv"
+        app:layout_goneMarginTop="0dp"
+        tools:text="@tools:sample/lorem" />
+
+    <ImageView
+        android:id="@+id/seen_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/general_divider_medium"
+        android:src="@drawable/ic_seen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/message_tv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

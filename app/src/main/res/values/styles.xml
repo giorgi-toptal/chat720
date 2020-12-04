@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="circleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="TextAppearance.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">@dimen/text_size_body1</item>
+    </style>
+
+    <style name="TextAppearance.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">@dimen/text_size_caption</item>
+    </style>
+
+    <style name="TextAppearance.Body1.IncomingMessage">
+        <item name="android:textColor">@color/colorBlueGrey</item>
+    </style>
+
+    <style name="TextAppearance.Body1.OutgoingMessage">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="TextAppearance.ChatDate" parent="">
+        <item name="android:textSize">@dimen/text_size_secondary</item>
+        <item name="android:textColor">@color/colorCornflowerTwo</item>
+    </style>
+
+    <style name="TextAppearance.Toolbar.Title" parent="">
+        <item name="android:textColor">@color/colorSkyBlueThree</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+    </style>
+
+    <style name="TextAppearance.Toolbar.Subtitle" parent="">
+        <item name="android:textColor">@color/colorGreyishBrown</item>
+        <item name="android:textSize">@dimen/text_size_sub_title</item>
+    </style>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- general -->
+    <dimen name="general_margin_medium">8dp</dimen>
+    <dimen name="general_margin_large">16dp</dimen>
+    <dimen name="general_list_padding">8dp</dimen>
+    <dimen name="general_radius_medium">12dp</dimen>
+    <dimen name="general_divider_medium">16dp</dimen>
+    <dimen name="general_elevation_high">8dp</dimen>
+    <dimen name="general_elevation_medium">6dp</dimen>
+
+    <!-- typography -->
+    <dimen name="text_size_body1">14sp</dimen>
+    <dimen name="text_size_caption">8sp</dimen>
+    <dimen name="text_size_secondary">10sp</dimen>
+    <dimen name="text_size_title">16dp</dimen>
+    <dimen name="text_size_sub_title">10dp</dimen>
+
+    <!-- message -->
+    <dimen name="message_radius_small">10dp</dimen>
+    <dimen name="message_radius_medium">18dp</dimen>
+    <dimen name="message_radius_big">30dp</dimen>
+    <dimen name="message_avatar_size">20dp</dimen>
+    <dimen name="message_margin">12dp</dimen>
+    <dimen name="message_margin_space">62dp</dimen>
+    <dimen name="message_margin_date">22dp</dimen>
+    <dimen name="message_padding_text_horizontal">20dp</dimen>
+    <dimen name="message_padding_text_vertical">8dp</dimen>
+    <dimen name="message_padding_date_vertical">2dp</dimen>
+    <dimen name="message_padding_date_horizontal">12dp</dimen>
+
+    <!-- view message input -->
+    <dimen name="view_message_height">60dp</dimen>
+    <dimen name="view_message_input_button_size">46dp</dimen>
+    <dimen name="view_message_input_radius">30dp</dimen>
+
+    <!-- view attachments -->
+    <dimen name="view_attachments_button_size">50dp</dimen>
+    <dimen name="view_attachments_horizontal_margin">12dp</dimen>
+    <dimen name="view_attachments_corner_size">12dp</dimen>
+
+    <!-- toolbar -->
+    <dimen name="toolbar_icon_size">40dp</dimen>
+    <dimen name="toolbar_margin">16dp</dimen>
+    <dimen name="toolbar_radius">30dp</dimen>
+    <dimen name="toolbar_height">70dp</dimen>
+</resources>
