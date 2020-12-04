@@ -11,6 +11,7 @@
 
     <!-- typography -->
     <dimen name="text_size_body1">14sp</dimen>
+    <dimen name="text_size_body2">12sp</dimen>
     <dimen name="text_size_caption">8sp</dimen>
     <dimen name="text_size_secondary">10sp</dimen>
     <dimen name="text_size_title">16dp</dimen>

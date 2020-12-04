@@ -7,10 +7,12 @@
     </style>
 
     <style name="TextAppearance.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="fontFamily">@font/quicksand_medium</item>
         <item name="android:textSize">@dimen/text_size_body1</item>
     </style>
 
     <style name="TextAppearance.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/quicksand_bold</item>
         <item name="android:textSize">@dimen/text_size_caption</item>
     </style>
 
@@ -23,17 +25,25 @@
     </style>
 
     <style name="TextAppearance.ChatDate" parent="">
+        <item name="fontFamily">@font/quicksand_medium</item>
         <item name="android:textSize">@dimen/text_size_secondary</item>
         <item name="android:textColor">@color/colorCornflowerTwo</item>
     </style>
 
     <style name="TextAppearance.Toolbar.Title" parent="">
+        <item name="fontFamily">@font/quicksand_bold</item>
         <item name="android:textColor">@color/colorSkyBlueThree</item>
         <item name="android:textSize">@dimen/text_size_title</item>
     </style>
 
     <style name="TextAppearance.Toolbar.Subtitle" parent="">
+        <item name="fontFamily">@font/quicksand_medium</item>
         <item name="android:textColor">@color/colorGreyishBrown</item>
         <item name="android:textSize">@dimen/text_size_sub_title</item>
+    </style>
+
+    <style name="TextAppearance.Attachment.Action" parent="">
+        <item name="fontFamily">@font/quicksand_regular</item>
+        <item name="android:textSize">@dimen/text_size_body2</item>
     </style>
 </resources>
