@@ -1,3 +1,3 @@
 # chat720
 
-apk is in '/app/build' directory
+[apk directory](https://github.com/giorgi-toptal/chat720/blob/master/app/build/app-debug.apk)
